@@ -1,0 +1,9 @@
+# Python program to display the Fibonacci sequence
+
+def recur_fibo(n):
+   #for first two elements of the fibonacci sequence (0,1)
+   if n <= 1:
+       return n
+   else:
+       return(recur_fibo(n-1) + recur_fibo(n-2))
+
